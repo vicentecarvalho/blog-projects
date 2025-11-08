@@ -1,0 +1,10 @@
+[package]
+name = "clap-config-source"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = "4.5.51"
+clap_derive = "4.5.49"
+config = "0.15.18"
+serde = { version = "1.0.228", features = ["derive"] }

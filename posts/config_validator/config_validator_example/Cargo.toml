@@ -1,0 +1,19 @@
+[package]
+name = "config-validator-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = "4.5.51"
+clap_derive = "4.5.49"
+config-validator = { version = "0.1.0", path = "../config_validator"}
+clap-config-source = { version = "0.1.0", path = "../clap_config_source"}
+serde = { version = "1.0.228", features = ["derive"] }
+strum = "0.27.2"
+strum_macros = "0.27.2"
+config = "0.15.18"
+log4rs = "1.4.0"
+log = "0.4.28"
+
+
